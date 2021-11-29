@@ -1,0 +1,27 @@
+<div class="content">
+  <h3 class="content__title">Registration</h3>
+  <form [formGroup]="form" (submit)="" class="content__form">
+    <mat-form-field>
+      <mat-label>Email</mat-label>
+      <input type="email" matInput formControlName="email">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Name</mat-label>
+      <input type="text" matInput formControlName="name">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Surname</mat-label>
+      <input type="text" matInput formControlName="surname">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Password</mat-label>
+      <input type="password" matInput formControlName="password">
+    </mat-form-field>
+
+    <button type="button" mat-button>Register</button>
+  </form>
+  <span class="content__additional-action">Do you have an account?</span>
+</div>

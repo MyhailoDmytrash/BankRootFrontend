@@ -1,0 +1,15 @@
+.app-authentication__content{
+  background-color: #f6f6f6;
+  padding: 20px 30px;
+  margin: 0 auto;
+  box-shadow: rgba(108, 108, 108, 0.53) 0 0 10px;
+}
+
+.content{
+  text-align: center;
+
+  .content__form{
+    display: flex;
+    flex-direction: column;
+  }
+}
